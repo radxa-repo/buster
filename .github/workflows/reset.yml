@@ -15,4 +15,4 @@ jobs:
           git branch gh-pages || true
           git switch gh-pages
           git reset --hard origin/main
-          git push --set-upstream origin -f
+          git push --set-upstream origin -f gh-pages
