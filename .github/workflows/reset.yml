@@ -12,6 +12,7 @@ jobs:
           fetch-depth: 0
       - name: Reset history
         run: |
+          git branch gh-pages || true
           git switch gh-pages
           git reset --hard origin/main
           git push -f
