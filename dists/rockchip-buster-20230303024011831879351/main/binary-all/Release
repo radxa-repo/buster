@@ -1,0 +1,9 @@
+Archive: rockchip-buster
+Component: main
+Origin: Radxa
+Label: Freight
+NotAutomatic: no
+ButAutomaticUpgrades: no
+Architecture: all
+Date: Fri, 03 Mar 2023 02:40:11 UTC
+Valid-Until: Tue, 30 Nov 2038 00:00:00 UTC
