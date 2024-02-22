@@ -1,0 +1,445 @@
+Package: glmark2-data
+Source: glmark2
+Version: 2021.02+ds-1
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 9311
+Recommends: glmark2-drm (>= 2021.02+ds-1) | glmark2-wayland (>= 2021.02+ds-1) | glmark2-x11 (>= 2021.02+ds-1) | glmark2-es2-wayland (>= 2021.02+ds-1) | glmark2-es2-drm (>= 2021.02+ds-1) | glmark2-es2-x11 (>= 2021.02+ds-1)
+Section: utils
+Priority: optional
+Homepage: https://github.com/glmark2/glmark2
+Description: OpenGL (ES) 2.0 benchmark suite -- data files
+ glmark2 is a benchmark for OpenGL (ES) 2.0. It uses only the subset of
+ the OpenGL 2.0 API that is compatible with OpenGL ES 2.0.
+ glmark2 offers a suite of scenes that can be used to measure many
+ aspects of OpenGL (ES) 2.0 performance.
+ The way in which each scene is rendered is configurable through a set
+ of options.
+ .
+ This package provides data files.
+Filename: pool/rockchip-buster/main/g/glmark2/glmark2-data_2021.02+ds-1_all.deb
+MD5sum: 607cb6140842ca053082f44bdf47443f
+SHA1: decb0d2e370b041fb8951156cf594cd2de2a69b8
+SHA256: 534aa105f06f41f20155c7b7fef4942e03e103ba9f17acb3004ebcd9830ab979
+SHA512: 9aecbd6cd93ea9823baf738aed8ab2de93ae1a644b30c5b0e0000e30af82c8a930e3321738e5592cceba2fd4cde3bb7665285c16bbe32393170807d58eeb8ca5
+Size: 6589888
+
+Package: gstreamer1.0-doc
+Source: gstreamer1.0
+Version: 1.14.4-1
+Architecture: all
+Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
+Installed-Size: 10573
+Depends: libglib2.0-doc
+Recommends: libgstreamer1.0-dev (= 1.14.4-1)
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer core documentation and manuals
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains documentation for core libraries and elements as
+ well as:
+  * the GStreamer Manual
+  * the GStreamer Plugin Writers Guide
+  * Various API docs
+Filename: pool/rockchip-buster/main/g/gstreamer1.0/gstreamer1.0-doc_1.14.4-1_all.deb
+MD5sum: 548f5738e7a334f0305c7d33a5adc904
+SHA1: 4c50d3b97845498df47170cfe4584aba5072c601
+SHA256: 281d8bce83b961c48f9c8eb997a6e663fefd1a0bff28d6c448a750c031575709
+SHA512: a1e1eb836595011e87600f34a096f47511e24324e0dfab52a8c4021f27e6c3d033dfe0921ddb21062a5d796e77cd779b7b84c8743473155a03622ff1501a1bbd
+Size: 1635068
+
+Package: gstreamer1.0-plugins-bad-doc
+Source: gst-plugins-bad1.0
+Version: 1.14.4-1+deb10u2
+Architecture: all
+Maintainer: Maintainers of GStreamer packages <gst-plugins-bad1.0@packages.debian.org>
+Installed-Size: 7496
+Depends: gstreamer1.0-doc, gstreamer1.0-plugins-base-doc
+Section: doc
+Priority: extra
+Multi-Arch: foreign
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer documentation for plugins from the "bad" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ GStreamer Bad Plug-ins is a set of plug-ins that aren't up to par compared
+ to the rest. They might be close to being good quality, but they're missing
+ something - be it a good code review, some documentation, a set of tests, a
+ real live maintainer, or some actual wide use.
+ .
+ This package contains the documentation for plugins from the "bad" set.
+Filename: pool/rockchip-buster/main/g/gst-plugins-bad1.0/gstreamer1.0-plugins-bad-doc_1.14.4-1+deb10u2_all.deb
+MD5sum: da083d2113b4294d9988257a5667a707
+SHA1: c16c4cd75c313a018d078e4bf03aba51c640a11e
+SHA256: 0003958508474c6b75c575884ec70543bc532637acf7982f23ce86145cf6a981
+SHA512: a19a638bddc507e961f07ed2c6282110349429d330f4d027f9c4c9f7981a8e62a64ad82fd35cd6c68e444a6ecd7afdd01dd1c595bf14298d07c0fa9ece81d9f6
+Size: 1962628
+
+Package: gstreamer1.0-plugins-base-doc
+Source: gst-plugins-base1.0
+Version: 1.14.4-2+deb10u1
+Architecture: all
+Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
+Installed-Size: 9823
+Depends: libglib2.0-doc, gstreamer1.0-doc
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer documentation for plugins from the "base" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains documentation for plugins from the "base" set,
+ an essential exemplary set of elements.
+Filename: pool/rockchip-buster/main/g/gst-plugins-base1.0/gstreamer1.0-plugins-base-doc_1.14.4-2+deb10u1_all.deb
+MD5sum: e7097872996f7715757d47f720bacb7e
+SHA1: 980fa57b296f7cc7e615a4bc1e60fcd14a75b950
+SHA256: 3430f3b0b406cb94ea99043c254108f2e157169665b00c91cd90e5ad4267633d
+SHA512: 5f93165939225328caa2c417370756d6272979b54c1feeaed9b19bc787f635fb1521fecbf7b7555be633c8ea26377a586a99dcc711e3fb8403d6e4b99c7af651
+Size: 1678876
+
+Package: gstreamer1.0-plugins-good-doc
+Source: gst-plugins-good1.0
+Version: 1.14.4-1+deb10u1
+Architecture: all
+Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
+Installed-Size: 5371
+Depends: gstreamer1.0-doc, gstreamer1.0-plugins-base-doc
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer documentation for plugins from the "good" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains documentation for plugins from the "good" set,
+ a set of good-quality plug-ins under the LGPL license.
+Filename: pool/rockchip-buster/main/g/gst-plugins-good1.0/gstreamer1.0-plugins-good-doc_1.14.4-1+deb10u1_all.deb
+MD5sum: 4c24a17b27b8a4ba069ebae781715a9d
+SHA1: 0eda03a780a1d76b25fa2143111a539431596736
+SHA256: 63b64471aee85052ef1299f92fe18769acb3e2fd88e43b1c27daa1d6df95f068
+SHA512: 81848936e30c4f0393b06fb320a9597f2eb29113a3de13bc19a1de75cee3d1aa58522329280cbfb964f48a5b656fe9bd536eaa02c3f48a1d3e18264252b2c809
+Size: 1464108
+
+Package: gstreamer1.0-plugins-ugly-doc
+Source: gst-plugins-ugly1.0
+Version: 1.14.4-1+deb10u1
+Architecture: all
+Maintainer: Maintainers of GStreamer packages <gst-plugins-ugly1.0@packages.debian.org>
+Installed-Size: 488
+Depends: gstreamer1.0-doc, gstreamer1.0-plugins-base-doc
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://gstreamer.freedesktop.org
+Description: GStreamer documentation for plugins from the "ugly" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains documentation for plugins from the "ugly" set,
+ a set of good-quality plug-ins that might pose distribution problems.
+Filename: pool/rockchip-buster/main/g/gst-plugins-ugly1.0/gstreamer1.0-plugins-ugly-doc_1.14.4-1+deb10u1_all.deb
+MD5sum: da9bcd98c4c033de2c777670a6a9fc8f
+SHA1: 46eab003483791f491951ea81d3154fd2f65fa8e
+SHA256: 572c3b7d0c95047c1b34524831a58198f3fca18e68e310918b9cb48a124d8043
+SHA512: ba92751cfa938c8d3757a8fdbe74b77750dabb76adf2e74a76c14aed3298e5d45e55768c8b575a566ebf404977937ce0fce86fb0ff5196a0ce054fc605da04b5
+Size: 239564
+
+Package: libdrm-common
+Source: libdrm
+Version: 2.4.97-1
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 32
+Section: libs
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://cgit.freedesktop.org/mesa/drm/
+Description: Userspace interface to kernel DRM services -- common files
+ This library implements the userspace interface to the kernel DRM
+ services.  DRM stands for "Direct Rendering Manager", which is the
+ kernelspace portion of the "Direct Rendering Infrastructure" (DRI).
+ The DRI is currently used on Linux to provide hardware-accelerated
+ OpenGL drivers.
+ .
+ This package provides common files for libdrm.
+Filename: pool/rockchip-buster/main/libd/libdrm/libdrm-common_2.4.97-1_all.deb
+MD5sum: 5e41a62eae099d4425ba6981623cf565
+SHA1: 88fa64e148e814c1c5e440e7b395ccd369e222c5
+SHA256: a33b7bd8ec006cd0a60c636c1bbf3ca549d44d0b0417419ee5f4007a09b891b3
+SHA512: 1fccdeec74601f8c6ec998b0eb2f0466aa36aaf909179705401835ae7ce773e7d18b454a0be733539db0429fdfa387bb172767f42377b3e8516b0fc3f565dbc8
+Size: 12474
+
+Package: libdvbv5-doc
+Source: v4l-utils
+Version: 1.16.3-3
+Architecture: all
+Maintainer: Gregor Jasny <gjasny@googlemail.com>
+Installed-Size: 6617
+Suggests: devhelp
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://linuxtv.org/downloads/v4l-utils/
+Description: Doxygen generated documentation for libdvbv5
+ This library provides functions to work with DVB devices that
+ implement the DVB v5 API.
+ .
+ This package provides doxygen generated documentation for the library.
+Filename: pool/rockchip-buster/main/v/v4l-utils/libdvbv5-doc_1.16.3-3_all.deb
+MD5sum: 6a7762c9cfb008b529603f1d97ea93be
+SHA1: ed935ed192233d448b95a5ae9616d1178dea8e7c
+SHA256: 58fa9712adc27a778a272668866ec34eb4b04e63a26252d09bf9c35cad568c8e
+SHA512: 6b88b3901192aa497d8796249398772c4a581516ee5c915d531142381e83947ef4081710018a7bced0cd7010bfebc6c7e77d00a78f0db8541d98bff6b8c49962
+Size: 1506032
+
+Package: python3-rknnlite2-example
+Source: rknn2
+Version: 1.6.0-1
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 50036
+Depends: python3-rknnlite2 (= 1.6.0-1), python3-opencv
+Provides: python3-rknnlite-example
+Section: python
+Priority: optional
+Description: Rockchip RKNN-Toolkit-Lite2 Example
+ This package provides example for Rockchip RKNN-Toolkit-Lite2.
+Filename: pool/rockchip-buster/main/r/rknn2/python3-rknnlite2-example_1.6.0-1_all.deb
+MD5sum: a338655b87b6cc34025c1746224eee6d
+SHA1: 1e466f1414c34c894c8fe4ad610e1290f1255837
+SHA256: 7baa0e1ddbca060a9b08f5427042002104d3c0c3b9fc795fbcb27cc6e0f83691
+SHA512: ccba22749fda8933f035b182ba6a9ea1f6c1254c6fd45d529a431a464549a5396bffe40ac802c8d4cd23fb54c6b77ef3be00e24ae11e7092232c1c8bb096064a
+Size: 34758884
+
+Package: radxa-alsa-config
+Version: 0.3
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 21
+Depends: rockchip-alsa-config
+Section: misc
+Priority: optional
+Description: Radxa specific ALSA configs
+ This package provides Radxa specific ALSA
+ config files.
+Filename: pool/rockchip-buster/main/r/radxa-alsa-config/radxa-alsa-config_0.3_all.deb
+MD5sum: 185ad1530c8a9a009f1a985e70c9aec1
+SHA1: aaad0dd09b67e99d16807ef09d100255f42c65c6
+SHA256: d6be173c8de54ebbfe2814db26dd407e5d5e4935b68cbc9168720370f24fcc6d
+SHA512: 6404102f0d9849ec96e115cacf1cf73d4507633c8fd19d21c3e84bb1d0b4471b6dc0d4069ae15bd3e0e464964df7ea01fe81f98a5ff3660592de8fa28493fe31
+Size: 2724
+
+Package: radxa-touchscreen-utils
+Version: 0.3.3
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 35
+Depends: xinput
+Section: misc
+Priority: optional
+Description: Radxa touchscreen helper
+ This package provides helper scripts to provide better
+ touchscreen behaviour.
+Filename: pool/rockchip-buster/main/r/radxa-touchscreen-utils/radxa-touchscreen-utils_0.3.3_all.deb
+MD5sum: 82a48b9912dd00d556192e90e2a7c583
+SHA1: 7a85b5360ff4690e1ec970a22ff9c5d123a63e3b
+SHA256: fbf0632f3c9999d40bddcb1a3c3746ac7eaa1a7533899b6ad4de08994b92ad37
+SHA512: c983dd6f402299db05a0da66490b7fcc04ab20dfb26b1003df0070f76a1f01591b8bf1773dba1f6db27c58bc6a59b12c67d79855a1a0e6e2ba905430d922db2c
+Size: 4064
+
+Package: radxa-xorg-wrapper
+Version: 0.1
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 19
+Section: misc
+Priority: optional
+Description: Radxa X.Org Wrapper
+ This package provides X.Org wrapper to workaround some
+ display issues on Rockchip platform.
+Filename: pool/rockchip-buster/main/r/radxa-xorg-wrapper/radxa-xorg-wrapper_0.1_all.deb
+MD5sum: 51c1f2a13f7d457ae8a4b1a575e40659
+SHA1: 4750e0df9076b74e1a0c508bf45c81aca8636ee9
+SHA256: 9e4d82040e4571739bdca194a12f95677f8688adcd40c7c845ea476c61ce3249
+SHA512: ae516571f962039bc227abef63ce46760d1a432abf43d0913cfaa5a5babeb44d1a5be66c2370f3a1e4b6a4d8a13386ff7a444ed1a6dd2e659cc182c252c8ca24
+Size: 2800
+
+Package: rockchip-alsa-config
+Version: 3.6-1
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 85
+Section: misc
+Priority: optional
+Description: Rockchip specific ALSA configs
+ This package provides Rockchip specific ALSA
+ config files.
+Filename: pool/rockchip-buster/main/r/rockchip-alsa-config/rockchip-alsa-config_3.6-1_all.deb
+MD5sum: 737a00a5c381e2f1f84545b3c272897b
+SHA1: e119d6b69c84d2526041ebdb8aec2ad3baf6161c
+SHA256: c4b4b69702ab0c01855994ab5c4f44289561b549436554b8cd82c6b4546ec5f5
+SHA512: b5b88c631cfd3b788e193d0ceee04e1431cc95e89546ce86e79146b89f43dfec33ad56a05a6726527d78ffc15710aece4d07207e16f97733ca3a31333911f7ff
+Size: 6552
+
+Package: rockchip-chromium-x11-utils
+Version: 0.1.3
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 32
+Enhances: chromium-x11
+Section: admin
+Priority: standard
+Description: Support package for Rockchip Chromium
+ This package provide the necessary services to ensure
+ proper functionality of Rockchip Chromium.
+Filename: pool/rockchip-buster/main/r/rockchip-chromium-x11-utils/rockchip-chromium-x11-utils_0.1.3_all.deb
+MD5sum: b1fa3731c4526aba9053282ca2edd8d9
+SHA1: a9cfd754a8b8efb13151b5eccaccc7e3c3ffdda2
+SHA256: 307bd9805007e412595bda264afa601ef3f45569ed0620f13b299fbf55706280
+SHA512: 706b0793d0e4091a4ae664c9c7e1155f0560aa4fa7f0481c84201698deb4cf457efe4fac5083189bc88f2abf6029ec7a80cfb4b9688489950caee4b6b9f659ba
+Size: 5316
+
+Package: rockchip-iqfiles-rk356x
+Source: rockchip-iqfiles
+Version: 0.1.11
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 1108
+Depends: camera-engine-rkaiq
+Section: libs
+Priority: optional
+Description: Additional camera tuning profiles for Rockchip RK356X
+ This package contains additional camera tuning profiles that is not
+ included in the official Rockchip packages.
+Filename: pool/rockchip-buster/main/r/rockchip-iqfiles/rockchip-iqfiles-rk356x_0.1.11_all.deb
+MD5sum: ddacf92447f33108b72769db18bbcab7
+SHA1: 9fab10e5879ee5ea6becefd83cfde36397c0c102
+SHA256: 872daa5751b0e1908c25f2232aeef505768dd3af7f05ecfc203591b85410af39
+SHA512: 1016c0d49e22cbc5b3852065186eb6c30c4be87fa38114bada9498b0609de408ec7165310bb26cbf58bb7ffe4304ab206c98a9acc156890a88ec0765230883d7
+Size: 52592
+
+Package: rockchip-iqfiles
+Version: 0.1.11
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 3640
+Depends: camera-engine-rkaiq | rkisp-engine
+Section: libs
+Priority: optional
+Description: Additional camera tuning profiles for Rockchip SoC
+ This package contains additional camera tuning profiles that is not
+ included in the official Rockchip packages.
+Filename: pool/rockchip-buster/main/r/rockchip-iqfiles/rockchip-iqfiles_0.1.11_all.deb
+MD5sum: 475acfc221b22525fa4a3a48aff5f690
+SHA1: 26604644717aa68566e9ff4db75972eb87921776
+SHA256: 5877ba90810b11664d1183883c7492d1a764228103ab7fb481328c70b38818f0
+SHA512: 1fa97a26d220bbf92defc5032c7a22d53f7ab54fe44c6115f0f5857f2a69da80791328b0c0e85c0bd102cd4f91065232dde8813a6ad0466ccf38b87ce937a0b9
+Size: 162808
+
+Package: rockchip-pulseaudio-config
+Version: 0.3.1
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 27
+Section: libs
+Priority: optional
+Description: Rockchip specific PulseAudio config
+ This package provides Rockchip PulseAudio config.
+Filename: pool/rockchip-buster/main/r/rockchip-pulseaudio-config/rockchip-pulseaudio-config_0.3.1_all.deb
+MD5sum: b143e19c46307f8e99a179489621291d
+SHA1: c1aeb801470ebe1a490e4ee7a78207ebd84869d8
+SHA256: 846c6d5683404b968d7e13ead5a9b1843e8254433fa35b9051dec118c1007a6d
+SHA512: 1bb097572e57afd3bbda9f4c62584afb2c69b4b5f9f2ed29dd64291a00cf46ceb774f639df0fd81d7d103cf008ba15e2ce7488b6c70f5ff43d609d943533a062
+Size: 5108
+
+Package: rockchip-udev
+Version: 0.3.0
+Architecture: all
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Installed-Size: 25
+Section: libs
+Priority: optional
+Description: Rockchip specific udev rules
+ This package provides Rockchip specific udev rules.
+Filename: pool/rockchip-buster/main/r/rockchip-udev/rockchip-udev_0.3.0_all.deb
+MD5sum: a802daa424de1d8ef962b1a0a7c35e27
+SHA1: f3beb10f7120845a7c0ee6c0f93010bea00719d3
+SHA256: c743de13a6ae27c80ce5882611069a632cee92ae75af5f26ce06c6430e0ac5f0
+SHA512: 6cedbc18fec80e98e3e724e995f62e19198167ceb2146f7fb589a6b1761d7072f641188c18498d43cb1439268c586d0530419118e362d5ab7497fbb6c0fb4daa
+Size: 5320
+
+Package: xorg-server-source
+Source: xorg-server
+Version: 2:1.20.4-1+deb10u3
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 3328
+Section: x11
+Priority: optional
+Homepage: https://www.x.org/
+Description: Xorg X server - source files
+ This package provides original Debian (with Debian patches already
+ applied, and autotools files updated) sources for the X.Org ('Xorg')
+ X server shipped in a tarball.  This enables other projects re-using
+ X server codebase (e.g. VNC servers) to (re-)use officially
+ Debian-supported version of the X xserver for their builds.
+ .
+ Unless you are building a software product using X server sources,
+ you probably want xserver-xorg and/or xserver-xorg-core instead.
+Filename: pool/rockchip-buster/main/x/xorg-server/xorg-server-source_1.20.4-1+deb10u3_all.deb
+MD5sum: 72cf35d9da5ddaa8e285237c62079cd5
+SHA1: 6e8a9d167ac813dbc55bc5edfb4a640ddf677589
+SHA256: 8876d5f1a3e95c67bf463978d5a61e4bdb5517fd7ee831f67e450c973e9d70d7
+SHA512: 527d210bf30df987e65a0bcd7d29ce16b2b64cd85dcbc7ed12554979c0419b3215755df19044341d8d8f954b616de3972c170ca756014d41bc9bdeded332ad31
+Size: 3256116
+
+Package: xserver-common
+Source: xorg-server
+Version: 2:1.20.4-1+deb10u3
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 187
+Depends: x11-common, xkb-data, x11-xkb-utils
+Recommends: xfonts-base, xauth
+Replaces: xserver-xorg-core (<< 2:1.5.2)
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Description: common files used by various X servers
+ This package provides files necessary for all X.Org based X servers.
+Filename: pool/rockchip-buster/main/x/xorg-server/xserver-common_1.20.4-1+deb10u3_all.deb
+MD5sum: f6239d5639664183ad4eb3d0bc2a88cb
+SHA1: c8a18a27c875d9483219c56d661cf46588adf952
+SHA256: 17a5dac5bba3ef5ed4e6e4c2e5ab1e360d892076b332472d0996b81c80dbd083
+SHA512: fa76268c774e1ba5141a466e141522c93e334c3c22febb635e6233f9d7ce3f07dca36146af41e42fd7365921fb18ff24a09b11b2339077860065451a7a505ab7
+Size: 72136
+
